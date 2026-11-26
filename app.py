@@ -16,7 +16,7 @@ st.markdown("""
 
 st.subheader("💬 Chat with your assistant")
 
-webhook_url = "http://localhost:5678/webhook/2ea6f5aa-723a-47de-9e23-b5013396ace8"
+webhook_url = "--Your webhook url"
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
